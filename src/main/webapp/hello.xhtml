@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="jakarta.faces.core"
+      xmlns:h="jakarta.faces.html">
+<f:view>
+    <h:head></h:head>
+    <h:body>
+        <h:form>
+            <h:inputText id="monTxt" value="#{bean.txt}"></h:inputText>
+            <h:commandButton value="Submit" action="#{bean.soumission()}">
+            </h:commandButton>
+        </h:form>
+
+    </h:body>
+</f:view>
+</html>
